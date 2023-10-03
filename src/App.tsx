@@ -4,14 +4,16 @@
 import './App.css'
 import Stuff from './components/Stuff'
 import MoreStuff from './components/moreStuff'
+import StuffAgain from './components/stuffAgain'
 
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <>
-      <Stuff word="React" cheese="TypeScript" />
-      <MoreStuff anotherword='Demo' num={2} somethingelse={200}/>
+      <Stuff word="Capstone" cheese="Project" />
+      <MoreStuff anotherword='Demo' num={3} somethingelse="Site" />
+      <StuffAgain text="hello" moretext="world" />
     </>
   )
 }
